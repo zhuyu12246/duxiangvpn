@@ -119,15 +119,10 @@ AllowedIPs = 0.0.0.0/0, ::/0
 PersistentKeepalive = 25
 ```
 
-**python文件打包**
-给windows使用
-
-```
-pyinstaller --onefile --uac-admin vpn_tool.py
-```
-
-windos的代码需要自行修改，本目录只用于mac
-或者安装windows的WireGuard，把wg-client.conf文件拖入那个软件里面就行了
+本目录只用于mac
+--------------------------------------------------------------
+windos使用配置好的服务器:
+安装windows的WireGuard，把wg-client.conf文件拖入那个软件里面就行了
 
 windows下载wireguard
 ```
