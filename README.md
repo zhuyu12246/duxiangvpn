@@ -103,8 +103,9 @@ sudo wg-quick up wg0
 输入wg 有输出表示成功
 
 **客户端配置**
+wg-client.conf
 
-注意客户端也要下载WireGuard,可用代码自动检测下载删除等
+注意客户端也要下载WireGuard,可用代码自动检测下载删除等 目录中的py文件为mac专属
 
 ```
 [Interface]
@@ -119,9 +120,10 @@ AllowedIPs = 0.0.0.0/0, ::/0
 PersistentKeepalive = 25
 ```
 
-本目录只用于mac
---------------------------------------------------------------
+
+
 windos使用配置好的服务器:
+------------------------------------------------------
 安装windows的WireGuard，把wg-client.conf文件拖入那个软件里面就行了
 
 windows下载wireguard
