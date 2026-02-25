@@ -1,4 +1,8 @@
 # 自己搭建专属回国独享vpn或者海外vpn 使用WireGuard
+<img width="403" height="140" alt="image" src="https://github.com/user-attachments/assets/314e4624-365d-4677-9b3f-deee8d91b558" />
+<img width="781" height="429" alt="image" src="https://github.com/user-attachments/assets/60a94938-d21a-49bd-832d-879d538f4290" />
+<img width="788" height="340" alt="image" src="https://github.com/user-attachments/assets/5e055169-f859-4bd5-8f65-4ce0f5d1be61" />
+<img width="388" height="126" alt="image" src="https://github.com/user-attachments/assets/5fee0a75-ecc9-427b-9bcb-c20ffba43ec8" />
 
 **安装前请确认**
 需要有能够访问公网的服务器，或者能访问公网服务器的VPS。同时要确认是否有ipv4和ipv6
@@ -124,3 +128,11 @@ pyinstaller --onefile --uac-admin vpn_tool.py
 
 windos的代码需要自行修改，本目录只用于mac
 或者安装windows的WireGuard，把wg-client.conf文件拖入那个软件里面就行了
+
+windows下载wireguard
+```
+winget install -e --id WireGuard.WireGuard
+默认在C:\Program Files\WireGuard\wireguard.exe
+```
+<img width="646" height="507" alt="image" src="https://github.com/user-attachments/assets/9aef6cf3-10af-41c3-b930-ad939c61cb57" />
+
